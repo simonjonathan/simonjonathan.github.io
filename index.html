@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>News Tabs Modul</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- CSS-->
+        <link rel="stylesheet" href="assets/css/main.css">
+        <!-- Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Sunflower:300" rel="stylesheet">
+        <!-- Symbols - Font Awesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <!-- JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <!-- Header-->
+        <div class="header">
+            <h1>Website XY</h1>
+            <p>A website.</p>
+        </div>
+        <!-- Navbar-->
+        <div class="navbar">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </div>
+        <!-- Sidebar-->
+        <div class="row">
+            <div class="side">
+                <!-- Tabs News Module-->
+                <!-- Collapse Bar for mobile-->
+                <div class="collapse-bar">
+                    <i class="fas fa-angle-down"></i>
+                    Aktuelles und Veranstaltungen
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div class="module-container">
+                    <!-- Tab Top Links-->
+                    <ul class="tabs">
+                        <li class="tab-link" data-tab="tab-1">Aktuelles</li>
+                        <li class="tab-link" data-tab="tab-2">Veranstaltungen</li>
+                    </ul>
+                    <!-- Tab Contents-->
+                    <!-- Tab 1-->
+                    <div id="tab-1" class="tab-content">
+                        <div class="tab-container">
+                            <div class="news-item">
+                                <div class="item-picture">
+                                    <img src="assets/img/ambulance-architecture-building-web.jpg" class="item-img">
+                                </div>
+                                <div class="item-content">
+                                    <span class="item-date">03.07.2015</span>
+                                    <h3>Einladung zur Jahrespresse<wbr>konferenz</h3>
+                                    <span class="item-info"></span>
+                                    <br>
+                                    <i class="fas fa-angle-right">
+                                        <a href="#">mehr Informationen</a>
+                                    </i>
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <div class="item-picture">
+                                    <img src="assets/img/audio-black-and-white-business-web.jpg" class="item-img">
+                                </div>
+                                <div class="item-content">
+                                    <span class="item-date">03.07.2015</span>
+                                    <h3>Studienstart im Juni</h3>
+                                    <span class="item-info">Studie zu rheumatoider Arthritis (RA)</span>
+                                    <br>
+                                    <i class="fas fa-angle-right">
+                                        <a href="#">mehr Informationen</a>
+                                    </i>
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <div class="item-picture">
+                                    <img src="assets/img/adult-blur-business-web.jpg" class="item-img">
+                                </div>
+                                <div class="item-content">
+                                    <span class="item-date">02.07.2015</span>
+                                    <h3>Herzenssache - Patienten warten auf ein Spenderherz</h3>
+                                    <span class="item-info">TV-Tipp: Ein Beitrag in der WDR Mediathek</span>
+                                    <br>
+                                    <i class="fas fa-angle-right">
+                                        <a href="#">mehr Informationen</a>
+                                    </i>
+                                </div>
+                            </div>
+                        </div> <!-- Tab Container END-->
+                        <div class="news-item">
+                            <div class="link-overview">
+                                <i class="fas fa-angle-right">
+                                    <a href="#">Alle News in der Übersicht</a>
+                                </i>
+                            </div>
+                        </div>
+                    </div> <!-- Tab 1 END -->
+                    <!-- Tab 2-->
+                    <div id="tab-2" class="tab-content">
+                        <div class="tab-container">
+                            <div class="news-item">
+                                <div class="item-picture">
+                                    <img src="assets/img/antibiotic-antioxidant-aroma-web.jpg" class="item-img">
+                                </div>
+                                <div class="item-content">
+                                    <span class="item-date">18.07.2015</span>
+                                    <h3>Vortrag zu Knoblauch und Zitronen</h3>
+                                    <span class="item-info"></span>
+                                    <br>
+                                    <i class="fas fa-angle-right">
+                                        <a href="#">mehr Informationen</a>
+                                    </i>
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <div class="item-picture">
+                                    <img src="assets/img/biotechnology-bright-chemical-web.jpg" class="item-img">
+                                </div>
+                                <div class="item-content">
+                                    <span class="item-date">25.07.2015</span>
+                                    <h3>Gentechnik - aktueller Forschungstand</h3>
+                                    <span class="item-info">Vortrag von Prof.Dr. Mustermann</span>
+                                    <br>
+                                    <i class="fas fa-angle-right">
+                                        <a href="#">mehr Informationen</a>
+                                    </i>
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <div class="item-picture">
+                                    <img src="assets/img/capsules-cure-drug-web.jpg" class="item-img">
+                                </div>
+                                <div class="item-content">
+                                    <span class="item-date">07.08.2015</span>
+                                    <h3>Meidkamenten Workshop</h3>
+                                    <span class="item-info">Alles über die Vor- und Nachteile von Medikamenten</span>
+                                    <br>
+                                    <i class="fas fa-angle-right">
+                                        <a href="#">mehr Informationen</a>
+                                    </i>
+                                </div>
+                            </div>
+                        </div> <!-- Tab Container END-->
+                        <div class="news-item">
+                            <div class="link-overview">
+                                <i class="fas fa-angle-right">
+                                    <a href="#">Alle News in der Übersicht</a>
+                                </i>
+                            </div>
+                        </div>
+                    </div> <!-- Tab 2 END -->
+                </div> <!-- Module Container END -->
+            </div> <!-- Side END-->
+            <!-- Main Content-->
+            <div class="main">
+                <h1>CONTENT</h1>
+                <p>Main CONTENT</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                        magna aliquyam erat, sed diam voluptua. At vero eos et 
+                        accusam et justo duo dolores et ea rebum. Stet clita kasd
+                        gubergren, no sea takimata sanctus est Lorem ipsum dolor
+                        sit amet. 
+                </p>
+            </div>
+        </div>
+        <!-- Footer-->
+        <div class="footer"> 
+            <h1>Footer</h1>
+        </div>
+        <script src="assets/js/tabs.js"></script>
+    </body>
+</html>
